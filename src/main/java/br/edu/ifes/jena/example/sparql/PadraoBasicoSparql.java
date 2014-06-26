@@ -14,9 +14,8 @@ public class PadraoBasicoSparql extends AbstractQuery{
 						+ "  ?y  <http://www.w3.org/2001/vcard-rdf/3.0#Given>  ?givenName . "
 						+ "}";
 		
-		SPARQLUtil.INSTANCE.printSPARQLQuery(query,inputFileName1);
+		SPARQLUtil.INSTANCE.printQuery(query,inputFileName1);
 		
-		//Utilizando ;
 		query = 
 				"SELECT ?givenName "
 						+ "WHERE "
@@ -24,7 +23,7 @@ public class PadraoBasicoSparql extends AbstractQuery{
 						+ "    <http://www.w3.org/2001/vcard-rdf/3.0#Given>  ?givenName  "
 						+ "}";
 		
-		SPARQLUtil.INSTANCE.printSPARQLQuery(query,inputFileName1);
+		SPARQLUtil.INSTANCE.printQuery(query,inputFileName1);
 	}
 
 }

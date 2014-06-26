@@ -15,7 +15,7 @@ public class QNameSparql extends AbstractQuery{
 						+"      vcard:Given  ?givenName "
 						+" }";
 		
-		SPARQLUtil.INSTANCE.printSPARQLQuery(query,inputFileName1);
+		SPARQLUtil.INSTANCE.printQuery(query,inputFileName1);
 	}
 
 }

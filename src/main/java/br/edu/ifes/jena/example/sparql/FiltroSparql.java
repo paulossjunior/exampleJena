@@ -14,7 +14,7 @@ public class FiltroSparql extends AbstractQuery{
 						+" { ?y vcard:Given ?given ."
 						+" FILTER regex(?given, \"r\", \"i\") } ";
 		
-		SPARQLUtil.INSTANCE.printSPARQLQuery(query,inputFileName1);
+		SPARQLUtil.INSTANCE.printQuery(query,inputFileName1);
 	}
 
 }
