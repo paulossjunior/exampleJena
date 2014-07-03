@@ -1,0 +1,39 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Semantic Web</foaf:name>
+<foaf:title>Dr</foaf:title>
+<foaf:givenname>Semantic</foaf:givenname>
+<foaf:family_name>Web</foaf:family_name>
+<foaf:nick>Webby</foaf:nick>
+<foaf:homepage rdf:resource="http://semwebprogramming.org"/>
+<foaf:depiction rdf:resource="http://semwebprogramming.org/semweb.jpg"/>
+<foaf:phone rdf:resource="tel:410-679-8999"/>
+<foaf:workplaceHomepage rdf:resource="http://semwebprogramming.com"/>
+<foaf:workInfoHomepage rdf:resource="http://semwebprogramming.com/dataweb.html"/>
+<foaf:schoolHomepage rdf:resource="http://www.web.edu"/>
+<foaf:knows>
+<foaf:Person rdf:ID="Ontology">
+<foaf:name>I. M. Ontology</foaf:name>
+<foaf:mbox rdf:resource="mailto:ont@gmail.com"/>
+<rdfs:seeAlso rdf:resource="http://ont.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person rdf:ID="Reasoner">
+<foaf:name>Ican Reason</foaf:name>
+<foaf:mbox rdf:resource="mailto:reason@firefox.com"/>
+<rdfs:seeAlso rdf:resource="http://reasoner.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person rdf:ID="Statement">
+<foaf:name>Makea Statement</foaf:name>
+<foaf:mbox rdf:resource="mailto:mstatement@gmail.com"/>
+<rdfs:seeAlso rdf:resource="http://statement.com"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

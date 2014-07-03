@@ -6,7 +6,6 @@ import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.RDFNode;
 
 public class DBpedia {
 
@@ -27,7 +26,7 @@ public class DBpedia {
 				+ " FILTER ( lang(?albumName) = \"en\" )" + " }";
 
 		ResultSet results = SPARQLUtil.INSTANCE.dbpediaQuery(query1);
-		//ResultSetFormatter.out(System.out, results);
+		ResultSetFormatter.out(System.out, results);
 
 		while (results.hasNext()) {
 
